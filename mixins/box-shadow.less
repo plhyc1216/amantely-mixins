@@ -1,0 +1,12 @@
+
+
+.box-shadow( @xOffset, @yOffset, @blurRadius, @spreadRadius, @color) {
+    -webkit-box-shadow:  @xOffset @yOffset @blurRadius @spreadRadius @color;
+    -moz-box-shadow:  @xOffset @yOffset @blurRadius @spreadRadius @color;
+    -ms-box-shadow: @xOffset @yOffset @blurRadius @spreadRadius @color;
+    -o-box-shadow:  @xOffset @yOffset @blurRadius @spreadRadius @color;
+    box-shadow:  @xOffset @yOffset @blurRadius @spreadRadius @color;
+
+    filter: ~"progid:DXImageTransform.Microsoft.Shadow(color=@{color},Direction=0, Strength=@{blurRadius})";
+
+}

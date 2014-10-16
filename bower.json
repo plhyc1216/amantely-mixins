@@ -1,0 +1,25 @@
+{
+  "name": "amantely-mixins",
+  "version": "0.0.0",
+  "homepage": "https://github.com/plhyc1216/amantely-mixins",
+  "authors": [
+    "pzforever@hotmail.com"
+  ],
+  "description": "less mixins collection",
+  "main": "mixins.less",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "less",
+    "mixins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
